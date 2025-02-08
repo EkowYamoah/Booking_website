@@ -11,9 +11,9 @@ from django.db import models
 #     def __str__(self):
 #         return f"{self.firstname} {self.lastname}"
 
-#     class Meta:
-#         managed = False
-#         db_table = 'Clients'
+    # class Meta:
+    #     # managed = False
+    #     db_table = 'Clients'
 
 
 class Services(models.Model):
@@ -72,11 +72,11 @@ class Appointments(models.Model):
     
     def __str__(self):
         return f"{self.firstname} {self.lastname}"
-
+    
     class Meta:
-        managed = False
-        db_table = 'Appointments'
 
+        managed = False
+        db_table = 'Appointment'
 
 class Timeslots(models.Model):
     timeslotid = models.AutoField(db_column='timeslotID', primary_key=True)
