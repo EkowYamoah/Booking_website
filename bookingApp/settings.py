@@ -89,10 +89,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'crown_kreation',
-        'USER': 'yme',
+        'USER': 'eyamoah',
         'PASSWORD': 'Password@123',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'HOST':'eyamoah.mysql.pythonanywhere-services.com',
+        # 'PORT':'3306',
     }
 }
 
